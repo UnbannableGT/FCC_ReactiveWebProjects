@@ -3,6 +3,9 @@
     <link src=https://cdn.unifiedcommerce.com/content/product/large/705988119446-L.jpg>
     <link rel="stylesheet" href=happinessSurvey.css>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> 
+    <link rel="preconnect" href="fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Slab&family=Yusei+Magic&display=swap" rel="stylesheet">
   </head>
   
   
@@ -13,28 +16,28 @@
       <p id="description">This is a short survey on how your day is going.<br>Hopefully after completion you'll 3% more smile than you do now.</p>
     </header>
     
-    <main id="main">
+    <main id="main" class="main">
 
       <form id="survey-form">
       
         <div id="contact-info" class="body">
           <h2>First, some info about you:</h2>
-          <p id="name-label">Enter your name</p>
-          <input id="name" type="text" placeholder="Name">
-          <p id="email-label">Enter your email</p>
-          <input id="email" type="email" placeholder="Email">
+          <p id="name-label">What is your name?</p>
+          <input id="name" type="text" placeholder="Name" class="input">
+          <p id="email-label">Where can I find ya?</p>
+          <input id="email" type="email" placeholder="Email" class="input">
         </div>
       
         <div id="main-survey" class="body">
       
-          <div>
+          <div id="how-happy">
             <h2>Lets get down to business:</h2>
             <p id="number-label">On a scale of 1 to 10, how happy are you right now?</p>
-            <input id="number" type="number" placeholder="1-10" min=0 max=10>
+            <input id="number" type="number" placeholder="1-10" min=0 max=10 class="input">
       
             <div id="are-you-pissed">
               <label for="pissed" id="dropdown-id">Did someone piss you off today?</label><br>
-              <select name="pissed" id="dropdown">
+              <select name="pissed" id="dropdown" class="input">
                 <option value="Yes">Yes</option>
                 <option value="No">No</option>
               </select>
@@ -46,27 +49,27 @@
             <h3>Who pissed you off ?</h3>
       
             <label for="radio">
-              <input id="radio" type="radio" name="who-done-it">
+              <input id="radio" type="radio" name="who-done-it" class="option">
               Fucky McFuckface
             </label><br> 
       
             <label for="radio-1">
-              <input id="radio-1" type="radio" name="who-done-it">
+              <input id="radio-1" type="radio" name="who-done-it" class="option">
               Fucker von Fucktenschtien
             </label><br>
       
             <label for="radio-2">
-              <input id="radio-2" type="radio" name="who-done-it">
+              <input id="radio-2" type="radio" name="who-done-it" class="option">
               That Mother Fucker
             </label><br>
       
             <label for="radio-3">
-              <input id="radio-3" type="radio" name="who-done-it">
+              <input id="radio-3" type="radio" name="who-done-it" class="option">
               That Stupid Fucker
             </label><br>
       
             <label for="radio-4">
-              <input id="radio-4" type="radio" name="who-done-it">
+              <input id="radio-4" type="radio" name="who-done-it" class="option">
               Fucking Jimmy
             </label><br>
           </div>
@@ -75,35 +78,44 @@
             <h3>What did that fucker do? </h3>
       
             <label for="checkbox">
-              <input id="checkbox" type="checkbox" name="what-they-did" value="no-listen">
+              <input id="checkbox" type="checkbox" name="what-they-did" value="no-listen" class="option">
               Didn't fucking listen
             </label><br>
       
             <label for="checkbox-1">
-              <input id="checkbox-1" type="checkbox" name="what-they-did" value="no-attention">
+              <input id="checkbox-1" type="checkbox" name="what-they-did" value="no-attention" class="option">
               Didn't fucking pay attention
             </label><br>
       
             <label for="checkbox-2">
-              <input id="checkbox-2" type="checkbox" name="what-they-did" value="fucked-it-up">
+              <input id="checkbox-2" type="checkbox" name="what-they-did" value="fucked-it-up" class="option">
               Fucked it up. All of it.
             </label><br>
       
             <label for="checkbox-3">
-              <input id="checkbox-3" type="checkbox" name="what-they-did" value='existed'>
+              <input id="checkbox-3" type="checkbox" name="what-they-did" value='existed' class="option">
               They just fucking existed.
             </label><br>
           </div>
         
         </div>
               
-        <div id="followup">
-          <textarea placeholder="Questions, comments, or concerns?"></textarea>
+        <div id="followup" class="body">
+          <textarea class="input" id="followup-input" placeholder="Questions, comments, or concerns?" ></textarea>
           <br>
-          <button type="sumbit" value="Submit">Submit</button>
-          <button type="reset" value="Reset">Reset</button>
+          <div id="submit">
+            <button id="submit-button" type="sumbit" value="Submit">Submit</button>
+            <button id="reset-button" type="reset" value="Reset">Reset Form</button>
+          </div>
         </div>
+
       </form>
-      
+  
     </main>
+
+    <footer id="footer" class="footer">
+      <h2>I hope this survey has spruced your day up.</h2>
+      <p>If it has, send it to someone else (with a good sense of humor).</p>
+    </footer>
+
 </body>

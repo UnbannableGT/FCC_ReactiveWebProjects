@@ -35,6 +35,9 @@ button {
     font-size: 18;
     font-weight: bold;
 }
+form {
+    margin-bottom: 0;
+}
 .body {
     display: flex;
     flex-direction: column;
@@ -64,6 +67,7 @@ button {
     width: 45%;
     height: auto;
     align-self: center;
+    padding-bottom: 1em;
 }
 .input {
     margin: 1%;
@@ -88,8 +92,7 @@ button {
     height: 25%;
     resize: none;
 }
-#submit {
-    margin-top: 5px;
+#sub-res {
     display: flex;
     flex-direction: row;
     justify-content: space-around;

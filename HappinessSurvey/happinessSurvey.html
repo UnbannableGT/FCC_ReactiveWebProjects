@@ -6,6 +6,7 @@
     <link rel="preconnect" href="fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Slab&family=Yusei+Magic&display=swap" rel="stylesheet">
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js" ></script>
   </head>
   
   
@@ -22,17 +23,17 @@
       
         <div id="contact-info" class="body">
           <h2>First, some info about you:</h2>
-          <p id="name-label">What is your name?</p>
-          <input id="name" type="text" placeholder="Name" class="input">
-          <p id="email-label">Where can I find ya?</p>
-          <input id="email" type="email" placeholder="Email" class="input">
+          <label for="name" id="name-label">What is your name?</label>
+          <input id="name" type="text" placeholder="Name" class="input" required="required">
+          <label for="email" id="email-label">Where can I find ya?</label>
+          <input id="email" type="email" placeholder="Email" class="input" required="required">
         </div>
       
         <div id="main-survey" class="body">
       
           <div id="how-happy">
             <h2>Lets get down to business:</h2>
-            <p id="number-label">On a scale of 1 to 10, how happy are you right now?</p>
+            <label for="number" id="number-label">On a scale of 1 to 10, how happy are you right now?</label>
             <input id="number" type="number" placeholder="1-10" min=0 max=10 class="input">
       
             <div id="are-you-pissed">
@@ -49,27 +50,27 @@
             <h3>Who pissed you off ?</h3>
       
             <label for="radio">
-              <input id="radio" type="radio" name="who-done-it" class="option">
+              <input id="radio" type="radio" name="who-done-it" class="option" value="fuckface">
               Fucky McFuckface
             </label><br> 
       
             <label for="radio-1">
-              <input id="radio-1" type="radio" name="who-done-it" class="option">
+              <input id="radio-1" type="radio" name="who-done-it" class="option" value="fucktenschtien">
               Fucker von Fucktenschtien
             </label><br>
       
             <label for="radio-2">
-              <input id="radio-2" type="radio" name="who-done-it" class="option">
+              <input id="radio-2" type="radio" name="who-done-it" class="option" value="motherfucker">
               That Mother Fucker
             </label><br>
       
             <label for="radio-3">
-              <input id="radio-3" type="radio" name="who-done-it" class="option">
+              <input id="radio-3" type="radio" name="who-done-it" class="option" value="stupid">
               That Stupid Fucker
             </label><br>
       
             <label for="radio-4">
-              <input id="radio-4" type="radio" name="who-done-it" class="option">
+              <input id="radio-4" type="radio" name="who-done-it" class="option" value="fucking-jimmy">
               Fucking Jimmy
             </label><br>
           </div>
@@ -103,9 +104,9 @@
         <div id="followup" class="body">
           <textarea class="input" id="followup-input" placeholder="Questions, comments, or concerns?" ></textarea>
           <br>
-          <div id="submit">
-            <button id="submit-button" type="sumbit" value="Submit">Submit</button>
-            <button id="reset-button" type="reset" value="Reset">Reset Form</button>
+          <div id="sub-res">
+            <button id="submit" type="sumbit" value="Submit">Submit</button>
+            <button id="reset" type="reset" value="Reset">Reset Form</button>
           </div>
         </div>
 

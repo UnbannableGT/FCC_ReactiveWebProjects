@@ -3,4 +3,21 @@ body {
     background-color: cyan;
     background-repeat: no-repeat;
     background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+#main {
+    background-color: #00ffff99;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    width: 40%;
+    align-self: center;
+}
+header {
+    width: 40%;
+    align-self: center;
+    background-color: #00ffff99;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
 }

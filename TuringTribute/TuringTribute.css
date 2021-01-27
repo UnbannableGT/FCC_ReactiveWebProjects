@@ -1,0 +1,30 @@
+main {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+  }
+  header {
+      background: #333333;
+      color: white;
+  }
+  
+  img {
+    max-width: 100%;
+    max-height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #tribute-info {
+    margin-left: 25%;
+    text-align: left;
+  }
+  #turing-quote {
+    font-style: italic;
+  }
+  #quote-signature {
+    text-align: right;
+    width: 75%;
+  } 

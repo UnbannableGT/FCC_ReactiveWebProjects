@@ -1,6 +1,6 @@
 html {
     background-color:darkgray;
-    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Kanit', sans-serif;
 }
 header {
     background-color: gray;
@@ -40,9 +40,59 @@ a.nav-link {
 .pitch-img{
     width: 75px;
     height: auto;
+    max-height: 130px;
+    align-items: center;
+    justify-content:center;
 }
 main {
     display: flex;
     flex-direction: column;
     align-self: center;
+}
+#features {
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+}
+#feature-title {
+    font-size: 3em;
+    margin: 0 auto;
+}
+.feature-container {
+    display: flex;
+    width: 90%;
+    margin-bottom: 2em;
+}
+.desc {
+    display: block;
+    margin: 0;
+    margin-left: 3%;
+    align-items: center;
+}
+h3.desc {
+    font-size: 1.75em;
+}
+p.desc {
+    font-size: 1.25em;
+}
+#magic-img {
+    margin-top: 6%;
+}
+#video {
+    align-self: center;
+    width: 800px;
+    margin: 3em;
+}
+#ninja-stars {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin: 0 10%;
+}
+div.ninja-stars {
+    width: 25%;
+    height: 10em;
+    margin: 0 auto;
+    border: 1px solid;
+    border-bottom: 0;
 }

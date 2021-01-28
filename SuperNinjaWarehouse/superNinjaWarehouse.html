@@ -5,13 +5,108 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SuperNinja Warehouse</title>
     <link rel="stylesheet" href="superNinjaWarehouse.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet"> 
 </head>
 
 <body>
 
     <header id="header">
-        <img src="https://pbs.twimg.com/profile_images/953407187191259136/a2WuyIvG_400x400.jpg">
+        <img id="header-img" src="https://cdn4.sportngin.com/attachments/call_to_action/9541/3722/ninjazone_large.png" width="50px">
+        <nav id="nav-bar" role="navigation">
+            <a class="nav-link" href="#ninja-stars">Ninja Stars</a>
+            <a class="nav-link" href="#video">Battle Tested!</a>
+            <a class="nav-link" href="#form">Chamber of the Masters</a>                
+        </nav>
     </header>
+
+    <main id="main">
+
+        <div id="product-pitch" class="pitch">
+            <h2>Our products are the best!</h2>
+            <div class="pitch-point">
+                <img src="https://freesvg.org/img/1528302701.png" class="pitch-img">
+                <div class="pitch-txt">
+                    <h3>Cold Forge Steel</h3>
+                    <p>Our stars are cold forged by master blacksmiths of the highest degree using a near lost ancient process.</p>
+                </div>
+            </div>    
+        </div>
+    
+        <div class="pitch-point">
+            <img src="https://cdn.pixabay.com/photo/2017/01/31/21/49/grind-2027516_960_720.png" class="pitch-img">
+            <div class="pitch-txt">
+                <h3>Hand Honed Edge</h3>
+                <p>After the master blacksmith is satisfied with his work, he hands the shuriken form off to </p>
+            </div>
+        </div>
+        
+        <div class="pitch-point">
+            <img src="https://www.pngrepo.com/png/307969/180/ninja-fight-attack-mask.png" class="pitch-img">
+            <div class="pitch-txt">
+                <h3>Battle Tested</h3>
+                <p>No star is shipped without a taste of blood. With a rasor edge, each star is put the ultimate test in battle.
+                non-victorious stars are melted down to be purified and formed again.</p>
+            </div>
+        </div>
+
+        <div class="pitch">
+            <img src="https://realgoodeal.com/media/catalog/product/cache/d0ba7b4a7bb7989581084040539a7f97/1/s/1st-super-rare-deso-en023.png" class="pitch-img">
+            <div class="pitch-txt">
+                <h3>Magic Stars</h3>
+                <p>The finest stars with the most exlemplary display of valor in battle are selected once a year when an ancient 
+                    grand wizard comes to town. He grants us 13 imbued shurikens a passing, and only if what we bring him is worthy.
+                    For over 335 years, our family has brought more worthy shurikens than any other group. Elegibility granted upon completion of
+                    the trials of the thirteen. By applying for the Trials of the Thirteen, you accept that Super Ninja Warehouse is not responsible for 
+                    any lost or damaged items, destruction of property, injury or death and cannot be held responsible in a court of law.</p>
+            </div>
+        </div>
+
+        <div id="video">
+            <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/YxPiozGQTHk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        
+        <div id="ninja-stars">
+            <div id="star-1" class="ninja-stars">
+                <h2 class="star-title">OG Shuriken</h2>
+                <img src="https://vignette3.wikia.nocookie.net/camphalfbloodroleplay/images/4/46/Hayden's_Shuriken.png/revision/latest?cb=20140318025322" class="product-images">
+                <p>This is a good starter ninja star. It will get the job done, but there is much to be desired.</p>
+                <p class="price">$10.00</p>
+                <button class="purchase-button">Purchase</button>
+            </div>
+
+            <div id="star-2" class="ninja-stars">
+                <h2 class="star-title">Curved Blade Shuriken</h2>
+                <img src="http://www.getaknife.com/wp-content/uploads/2014/08/paul-ehlers-mastery-cutlery-tri-blade-throwing-shuriken-star-pe-618.png" class="product-images">
+                <p>This star is a decent upgrade from the straight blade, the standard used by professionals.</p>
+                <p class="price">$80.00</p>
+                <button class="purchase-button">Purchase</button>
+            </div>
+
+            <div id="star-3" class="ninja-stars">
+                <h2 class="star-title">Magic Shuriken</h2>
+                <img src="https://orderofsyncletica.files.wordpress.com/2013/09/shuriken-icon.png?w=584" class="product-images">
+                <p>For the elite of the elite. Not for use by minors. <strong><u>Only available for purchase in the Chamber of the Masters.</u></strong></p>
+                <p class="price">*price hidden*</p>
+                <button class="unavailable-button">Unavailable</button>
+            </div>
+        </div>
+
+    </main>
+
+    <footer id="footer" class="footer">
+        <h2>Chamber of the Masters Application</h2>
+        <p>
+            To apply for access to the Chamber of the Masters, submit your email address 
+            and we will summon you for the test.<br>
+            <strong>Beware, once this form has been submitted there is no stopping the chain of events that awaits!</strong>
+        </p>
+        <form id="form" action="https://www.freecodecamp.org/email-submit" method="post">
+            <label for="email">Enter your email <strong>if you dare:</strong></label>
+            <input id="email" type="email" placeholder="Enter your Email">
+            <input id="submit" type="submit" value="Begin the Quest!">
+        </form>
+    </footer>
 
 </body>
 </html>

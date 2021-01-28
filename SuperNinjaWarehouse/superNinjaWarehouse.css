@@ -38,22 +38,11 @@ a.nav-link {
     height: auto;
 }
 .pitch-img{
-    width: 50px;
+    width: 75px;
     height: auto;
 }
 main {
     display: flex;
     flex-direction: column;
     align-self: center;
-}
-.pitch-point {
-    display: flex;
-    flex-direction: row;
-}
-.pitch-txt {
-    display: flex;
-    flex-direction: column;
-}
-.pitch-img {
-    height: 100%;
 }

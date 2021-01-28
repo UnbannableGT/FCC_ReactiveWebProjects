@@ -11,12 +11,12 @@
 
 <body>
 
-    <header id="header">
-        <img id="header-img" src="https://cdn4.sportngin.com/attachments/call_to_action/9541/3722/ninjazone_large.png" width="50px">
-        <nav id="nav-bar" role="navigation">
-            <a class="nav-link" href="#ninja-stars">Ninja Stars</a>
-            <a class="nav-link" href="#video">Battle Tested!</a>
-            <a class="nav-link" href="#form">Chamber of the Masters</a>                
+    <header id="header" class="header">
+        <img id="header-img" src="https://cdn4.sportngin.com/attachments/call_to_action/9541/3722/ninjazone_large.png">
+        <nav id="nav-bar" role="navigation" class="nav-bar">
+            <a class="nav-link" href="#ninja-stars">Ninja<br>Stars</a>
+            <a class="nav-link" href="#video">Battle<br>Tested!</a>
+            <a id="master-chamber-link" class="nav-link" href="#form">Chamber<br><sub>of the</sub><br>Masters</a>                
         </nav>
     </header>
 
@@ -31,34 +31,34 @@
                     <p>Our stars are cold forged by master blacksmiths of the highest degree using a near lost ancient process.</p>
                 </div>
             </div>    
-        </div>
-    
-        <div class="pitch-point">
-            <img src="https://cdn.pixabay.com/photo/2017/01/31/21/49/grind-2027516_960_720.png" class="pitch-img">
-            <div class="pitch-txt">
-                <h3>Hand Honed Edge</h3>
-                <p>After the master blacksmith is satisfied with his work, he hands the shuriken form off to </p>
+            
+            <div class="pitch-point">
+                <img src="https://cdn.pixabay.com/photo/2017/01/31/21/49/grind-2027516_960_720.png" class="pitch-img">
+                <div class="pitch-txt">
+                    <h3>Hand Honed Edge</h3>
+                    <p>After the master blacksmith is satisfied with his work, he hands the shuriken form off to </p>
+                </div>
             </div>
-        </div>
-        
-        <div class="pitch-point">
-            <img src="https://www.pngrepo.com/png/307969/180/ninja-fight-attack-mask.png" class="pitch-img">
-            <div class="pitch-txt">
-                <h3>Battle Tested</h3>
-                <p>No star is shipped without a taste of blood. With a rasor edge, each star is put the ultimate test in battle.
-                non-victorious stars are melted down to be purified and formed again.</p>
+            
+            <div class="pitch-point">
+                <img src="https://www.pngrepo.com/png/307969/180/ninja-fight-attack-mask.png" class="pitch-img">
+                <div class="pitch-txt">
+                    <h3>Battle Tested</h3>
+                    <p>No star is shipped without a taste of blood. With a rasor edge, each star is put the ultimate test in battle.
+                    non-victorious stars are melted down to be purified and formed again.</p>
+                </div>
             </div>
-        </div>
 
-        <div class="pitch">
-            <img src="https://realgoodeal.com/media/catalog/product/cache/d0ba7b4a7bb7989581084040539a7f97/1/s/1st-super-rare-deso-en023.png" class="pitch-img">
-            <div class="pitch-txt">
-                <h3>Magic Stars</h3>
-                <p>The finest stars with the most exlemplary display of valor in battle are selected once a year when an ancient 
-                    grand wizard comes to town. He grants us 13 imbued shurikens a passing, and only if what we bring him is worthy.
-                    For over 335 years, our family has brought more worthy shurikens than any other group. Elegibility granted upon completion of
-                    the trials of the thirteen. By applying for the Trials of the Thirteen, you accept that Super Ninja Warehouse is not responsible for 
-                    any lost or damaged items, destruction of property, injury or death and cannot be held responsible in a court of law.</p>
+            <div id="magic-pitch" class="pitch-point">
+                <img src="https://realgoodeal.com/media/catalog/product/cache/d0ba7b4a7bb7989581084040539a7f97/1/s/1st-super-rare-deso-en023.png" class="pitch-img">
+                <div class="pitch-txt">
+                    <h3>Magic Stars</h3>
+                    <p>The finest stars with the most exlemplary display of valor in battle are selected once a year when an ancient 
+                        grand wizard comes to town. He grants us 13 imbued shurikens a passing, and only if what we bring him is worthy.
+                        For over 335 years, our family has brought more worthy shurikens than any other group. Elegibility granted upon completion of
+                        the trials of the thirteen. By applying for the Trials of the Thirteen, you accept that Super Ninja Warehouse is not responsible for 
+                        any lost or damaged items, destruction of property, injury or death and cannot be held responsible in a court of law.</p>
+                </div>
             </div>
         </div>
 
@@ -103,7 +103,7 @@
         </p>
         <form id="form" action="https://www.freecodecamp.org/email-submit" method="post">
             <label for="email">Enter your email <strong>if you dare:</strong></label>
-            <input id="email" type="email" placeholder="Enter your Email">
+            <input id="email" type="email" placeholder="Enter your Email" required="required">
             <input id="submit" type="submit" value="Begin the Quest!">
         </form>
     </footer>

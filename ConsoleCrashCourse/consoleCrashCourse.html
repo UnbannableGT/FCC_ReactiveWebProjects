@@ -13,21 +13,79 @@
             <header class="navbar">
                 <h1 class="navbar">J03Y's GrandMA2 Crash Course</h1>
             </header>
-            <a class="nav-link odd" href="#">This is a page link</a>
-            <a class="nav-link even" href="#">This is a page link</a>
-            <a class="nav-link odd" href="#">This is a page link</a>
-            <a class="nav-link even" href="#">This is a page link</a>
-            <a class="nav-link odd" href="#">This is a page link</a>
-            <a class="nav-link even" href="#">This is a page link</a>
-            <a class="nav-link odd" href="#">This is a page link</a>
-            <a class="nav-link even" href="#">This is a page link</a>
+            <a class="nav-link odd" href="#Introduction">Introduction</a>
+            <a class="nav-link even" href="#A_Primer_on_Lighting_Programming">A Primer on Lighting Programming</a>
             <a class="nav-link odd" href="#">This is a page link</a>
             <a class="nav-link even" href="#">This is a page link</a>
             <a class="nav-link odd" href="#">This is a page link</a>
         </nav>
 
         <main id="main-doc" class="main-doc">
+
+
+            <section id="Introduction" class="main-section">
+
+                <header class="main-section">Introduction</header>
+
+                <p>
+                    I'm writing this manual to teach some of the meta behind programming MA2 as I've had the opportunity to 
+                    play with or watch others play with for the last few years. I've considered doing this in video format, 
+                    but there's something special to me about RTFM, and I needed to write a technical documentation page for 
+                    my web coding class. I hope you enjoy this manual, I have always been a fan of a well written manual and this is 
+                    my first attempt at anything of the sort, it will likely be a journey for the both of us. I'll 
+                    be starting with the basics, and hopefully expanding as time allows. If this page was useful, share it at 
+                    your liesure. If not, leave a comment on the <a class="main-section" href="https://github.com/UnbannableGT/FreeCodeCampProjects">github page here.</a>
+                </p>
+            </section>
             
+
+            <section id="A_Primer_on_Lighting_Programming" class="main-section">
+
+                <header class="main-section">A Primer on Lighting Programming</header>
+
+                <p class="main-section">
+                    Before I explain how to use the console, there are a few things I want to explain to you. You may think programming 
+                    lights for rock shows and raves is about making the lights do things, but you're wrong. Its all about the way how you're 
+                    able to reference the mind melting (and your partiularly earth shattering style of a) sym bally look at the perfect time. And 
+                    also making sure that when you call that bally up, you aren't turing the stage work lights on at full. Yeah -it happens- you 
+                    just gotta roll with the punches. This guide is here to help you make sure that doesnt happen and you'll graduate to finding 
+                    out you've lost timecode when the intro track starts rolling, or your console gets rained on mid set and the band ain't stopping, 
+                    or the fabled downbeat crash. It all happens and you'll take it in stride, just like the rest of us. Anyway, enough anecdote. 
+                    Think about learning lighting from a standpoint of data managment. All you're doing is stacking layers of data, some data can 
+                    push through some layers, but not others. Some data can push through any layer. The layers contain objects that have data stored to them. 
+                    Don't worry if none of that makes sense, I'll explain in more detail later. Hopefully as you make it further into the guide this will begin 
+                    to make some sense. I promise, we'll make a light show eventually, but there's a lot that goes into making that process easy and enjoyable.
+                </p>
+                
+            </section>
+
+
+            <section id="Your_New_Showfile" class="main-section">
+
+                <header class="main-section">Your New Showfile</header>
+
+                <p class="main-section">
+                    First thing you're gonna want to do is make a new showfile, check all settings. Start from scratch. Next go into settings > users & profiles and make yourself a profile, then user based on that profile.
+                    Make sure you give yourself admin privelages, and log in. This is important for annoying reasons, but can save you at showtime on a big festival.
+                </p>
+
+                <p class="main-section">
+                    Okay, now that we're acting as us, and not the admin we're ready to patch. Open settings > patch & fixture schedule. Here's where all of the data for the lights in your show is stored. 
+                    Think of layers like user defined groupings of fixture data. Patch is the main folder, layers are folders inside the main folder, and fixtures have to go in a folder. 
+                    More to come as I refine this. I usually group by fixture type, but I know some people like to group by truss or element, and vectorworks import creates a structure.
+                    Create some fixtures, I like to think about what fixtures I'm going to use so we can see the talent, what I'm going to use to texture the stage with, how I'm goig to 
+                    texture the air, how I'm going to highlight parts of the set/band members, and what do I have that I can make 'pop'. 
+                    <br>
+                    If you have access to another showfile with built 3D, you can use partial show read, wizard merge all. 
+                </p> 
+
+                <p class="main-section">
+                   Now that you've got some fixtures patched, escape out of the settings menu, and you should have a blank screen. I won't go too far into telling you how to lay your show out, through
+                   this guide, you'll see what windows are accessed frequently and build it to your liking. I will say however, I'm personally fond of dynamic preset view and layout view interfaces. We'll 
+                   talk about these more later. Keep in mind: if you want to store a view to all screens, every time you store it you have to store all. You'll get caught by that one more that you'll like.
+                </p>
+            </section>
+
         </main>
     </body>
 </html>

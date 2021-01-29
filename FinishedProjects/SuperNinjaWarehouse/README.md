@@ -1,0 +1,1 @@
+To view this project, use [this link.](https://htmlpreview.github.io/?https://github.com/UnbannableGT/FCC_ReactiveWebProjects/blob/main/FinishedProjects/SuperNinjaWarehouse/superNinjaWarehouse.html)

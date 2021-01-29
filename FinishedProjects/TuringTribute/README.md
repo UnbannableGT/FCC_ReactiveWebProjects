@@ -1,1 +1,1 @@
-To view this project, use [this link.](https://htmlpreview.github.io/?https://github.com/UnbannableGT/FCC_ReactiveWebProjects/blob/main/FinishedProjects/TuringTribute/turingTribute.html)
+To view this project, use [this link.](https://htmlpreview.github.io/?https://github.com/UnbannableGT/FreeCodeCampProjects/blob/main/FinishedProjects/TuringTribute/turingTribute.html)

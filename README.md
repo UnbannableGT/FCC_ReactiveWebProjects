@@ -7,17 +7,17 @@ We'll see.
 
 Feel free to email me joey@joeyherring.com or hit me on discord UnbannableGT#1130.
 
-View the project folders (and the code that supports these pages) by either clicking on the "Finished Projects" folder above or by using [this link.](https://github.com/UnbannableGT/FCC_ReactiveWebProjects/tree/main/FinishedProjects)
+View the project folders (and the code that supports these pages) by either clicking on the "Finished Projects" folder above or by using [this link.](https://github.com/UnbannableGT/FreeCodeCampProjects/tree/main/FinishedProjects)
 
 You can view the rendered HTML at these links:
 
-[Turing Tribute](https://htmlpreview.github.io/?https://github.com/UnbannableGT/FCC_ReactiveWebProjects/blob/main/FinishedProjects/TuringTribute/turingTribute.html)
+[Turing Tribute](https://htmlpreview.github.io/?https://github.com/UnbannableGT/FreeCodeCampProjects/blob/main/FinishedProjects/TuringTribute/turingTribute.html)
 
-[Happiness Survey](https://htmlpreview.github.io/?https://github.com/UnbannableGT/FCC_ReactiveWebProjects/blob/main/FinishedProjects/HappinessSurvey/happinessSurvey.html)
+[Happiness Survey](https://htmlpreview.github.io/?https://github.com/UnbannableGT/FreeCodeCampProjects/blob/main/FinishedProjects/HappinessSurvey/happinessSurvey.html)
 
-[Super Ninja Warehouse](https://htmlpreview.github.io/?https://github.com/UnbannableGT/FCC_ReactiveWebProjects/blob/main/FinishedProjects/SuperNinjaWarehouse/superNinjaWarehouse.html)
+[Super Ninja Warehouse](https://htmlpreview.github.io/?https://github.com/UnbannableGT/FreeCodeCampProjects/blob/main/FinishedProjects/SuperNinjaWarehouse/superNinjaWarehouse.html)
 
-[Console Crash Course](https://htmlpreview.github.io/?https://github.com/UnbannableGT/FCC_ReactiveWebProjects/blob/main/ConsoleCrashCourse/consoleCrashCourse.html)
+[Console Crash Course](https://htmlpreview.github.io/?https://github.com/UnbannableGT/FreeCodeCampProjects/blob/main/ConsoleCrashCourse/consoleCrashCourse.html)
 
 ---
 

@@ -12,6 +12,4 @@ Feel free to email me joey@joeyherring.com or hit me on discord UnbannableGT#113
 1/28/21
 Use the link in `README.md` inside the project folders to view the project in your browser.
 
----
-
 This works, but CSS styling takes forever to load, will investigate.

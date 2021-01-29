@@ -54,7 +54,7 @@
                 <div id="magic-pitch" class="desc">
                     <div class="pitch-txt">
                         <h3 class="desc">Magic Stars</h3>
-                        <p class="desc">The finest stars with the most exlemplary display of valor in battle are selected once a year when an ancient 
+                        <p class="desc magic">The finest stars with the most exlemplary display of valor in battle are selected once a year when an ancient 
                             grand wizard comes to town. He grants us 13 imbued shurikens a passing, and only if what we bring him is worthy.
                             For over 335 years, our family has brought more worthy shurikens than any other group. Elegibility granted upon completion of
                             the trials of the thirteen. By applying for the Trials of the Thirteen, you accept that Super Ninja Warehouse is not responsible for 
@@ -70,44 +70,62 @@
     
         <div id="ninja-stars">
             <div id="star-1" class="ninja-stars">
-                <h2 class="star-title">OG Shuriken</h2>
-                <img src="https://vignette3.wikia.nocookie.net/camphalfbloodroleplay/images/4/46/Hayden's_Shuriken.png/revision/latest?cb=20140318025322" class="product-images">
-                <pclass="ninja-stars">This is a good starter ninja star. It will get the job done, but there is much to be desired.</pclass=>
-                <p class="ninja-stars price">$10.00</p>
-                <button class="ninja-stars">Purchase</button>
+                <div class="info">
+                    <h2 class="star-title">OG Shuriken</h2>
+                    <img src="https://vignette3.wikia.nocookie.net/camphalfbloodroleplay/images/4/46/Hayden's_Shuriken.png/revision/latest?cb=20140318025322" class="product-images">
+                    <p class="ninja-stars">This is a good starter ninja star. It will get the job done, but there is much to be desired.</p>
+                </div>
+                <div class="purchase">
+                    <p class="ninja-stars price">$10.00</p>
+                    <button class="ninja-stars">Purchase</button>
+            </div>
             </div>
 
             <div id="star-2" class="ninja-stars">
-                <h2 class="ninja-stars">Curved Blade Shuriken</h2>
-                <img src="http://www.getaknife.com/wp-content/uploads/2014/08/paul-ehlers-mastery-cutlery-tri-blade-throwing-shuriken-star-pe-618.png" class="product-images">
+                <div class="info">
+                    <h2 class="ninja-stars">Curved Blade Shuriken</h2>
+                    <img src="http://www.getaknife.com/wp-content/uploads/2014/08/paul-ehlers-mastery-cutlery-tri-blade-throwing-shuriken-star-pe-618.png" class="product-images">
                     <p class="ninja-stars">This star is a decent upgrade from the straight blade, the standard used by professionals.</p>
-                    <p class="ninja-stars">$80.00</p>
-                    <button class="ninja-stars">Purchase</button>
+                </div>
+                    <div class="purchase">
+                        <p class="ninja-stars price">$80.00</p>
+                        <button class="ninja-stars">Purchase</button>
+                    </div>
             </div>
 
             <div id="star-3" class="ninja-stars">
-                <h2 class="ninja-stars">Magic Shuriken</h2>
-                <img src="https://orderofsyncletica.files.wordpress.com/2013/09/shuriken-icon.png?w=584" class="product-images">
-                <p class="ninja-stars">For the elite of the elite. Not for use by minors. <strong><u>Only available for purchase in the Chamber of the Masters.</u></strong></p>
-                <p class="unavailable">*price hidden*</p>
-                <button class="unavailable">Unavailable</button>
+                <div class="info">
+                    <h2 class="ninja-stars">Magic Shuriken</h2>
+                    <img src="https://orderofsyncletica.files.wordpress.com/2013/09/shuriken-icon.png?w=584" class="product-images">
+                    <p class="ninja-stars">For the elite of the elite. Not for use by minors. <strong><u>Only available for purchase in the Chamber of the Masters.</u></strong></p>
+                </div>
+                <div class="purchase">
+                    <p class="unavailable price">*price hidden*</p>
+                    <button class="unavailable ninja-stars">Unavailable</button>
+                </div>
             </div>
+        </div>
+
+        <div id="join-the-cult" class="signup">
+            <h2  class="signup">Chamber of the Masters Application</h2>
+            <p  class="signup">
+            To apply for access to the Chamber of the Masters, submit your email address 
+            and we will summon you for the test.<br>
+            <strong>Beware, once this form has been submitted there is no stopping the chain of events that awaits!</strong>
+            </p>
+        <form id="form"  class="signup" action="https://www.freecodecamp.org/email-submit" method="post">
+            <label class="signup" for="email">Enter your email <strong>if you dare:</strong></label>
+            <br>
+            <input class="signup" id="email" type="email" placeholder="Enter your Email" required="required">
+            <br>
+            <input class="signup" id="submit" type="submit" value="Begin the Quest!">
+        </form>
         </div>
 
     </main>
 
     <footer id="footer" class="footer">
-        <h2>Chamber of the Masters Application</h2>
-        <p>
-            To apply for access to the Chamber of the Masters, submit your email address 
-            and we will summon you for the test.<br>
-            <strong>Beware, once this form has been submitted there is no stopping the chain of events that awaits!</strong>
-        </p>
-        <form id="form" action="https://www.freecodecamp.org/email-submit" method="post">
-            <label for="email">Enter your email <strong>if you dare:</strong></label>
-            <input id="email" type="email" placeholder="Enter your Email" required="required">
-            <input id="submit" type="submit" value="Begin the Quest!">
-        </form>
+        
     </footer>
 
 </body>

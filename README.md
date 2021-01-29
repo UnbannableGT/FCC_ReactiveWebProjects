@@ -17,7 +17,7 @@ You can view the rendered HTML at these links:
 
 [Super Ninja Warehouse](https://htmlpreview.github.io/?https://github.com/UnbannableGT/FCC_ReactiveWebProjects/blob/main/FinishedProjects/SuperNinjaWarehouse/superNinjaWarehouse.html)
 
-[Console Crash Course](https://htmlpreview.github.io/UnbannableGT/FCC_ReactiveWebProjects/blob/main/ConsoleCrashCourse/consoleCrashCourse.html)
+[Console Crash Course](https://htmlpreview.github.io/?https://github.com/UnbannableGT/FCC_ReactiveWebProjects/blob/main/ConsoleCrashCourse/consoleCrashCourse.html)
 
 ---
 

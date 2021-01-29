@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SuperNinja Warehouse</title>
@@ -25,7 +26,7 @@
         <div id="features" class="pitch">
             <h2 id="feature-title">Our Proven Method</h2>
             <div class="feature-container">
-                <img src="https://freesvg.org/img/1528302701.png" class="pitch-img">
+                <img src="https://freesvg.org/img/1528302701.png" class="pitch-img" id="pitch-img-1">
                 <div class="desc">
                     <h3 class="desc">Cold Forge Steel</h3>
                     <p class="desc">Our stars are cold forged by master blacksmiths of the highest degree using a near lost ancient process.</p>
@@ -33,7 +34,7 @@
             </div>
             
             <div class="feature-container">
-                <img src="https://cdn.pixabay.com/photo/2017/01/31/21/49/grind-2027516_960_720.png" class="pitch-img">
+                <img src="https://cdn.pixabay.com/photo/2017/01/31/21/49/grind-2027516_960_720.png" id="pitch-img-2" class="pitch-img">
                 <div class="desc">
                     <h3 class="desc">Hand Honed Edge</h3>
                     <p class="desc">After the master blacksmith is satisfied with his work, he hands the shuriken form off to </p>
@@ -41,7 +42,7 @@
             </div>
             
             <div class="feature-container">
-                <img src="https://www.pngrepo.com/png/307969/180/ninja-fight-attack-mask.png" class="pitch-img">
+                <img src="https://www.pngrepo.com/png/307969/180/ninja-fight-attack-mask.png" id="pitch-img-3" class="pitch-img">
                 <div class="desc">
                     <h3 class="desc">Battle Tested</h3>
                     <p class="desc">No star is shipped without a taste of blood. With a rasor edge, each star is put the ultimate test in battle.
@@ -60,18 +61,19 @@
                             the trials of the thirteen. By applying for the Trials of the Thirteen, you accept that Super Ninja Warehouse is not responsible for 
                             any lost or damaged items, destruction of property, injury or death and cannot be held responsible in a court of law.</p>
                     </div>
+
                 </div>
             </div>
         </div>
 
-        <div id="video">
-            <iframe width="800" height="450" src="https://www.youtube-nocookie.com/embed/YxPiozGQTHk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div id="video-div">
+            <iframe id="video" width="800" height="450" src="https://www.youtube-nocookie.com/embed/YxPiozGQTHk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     
         <div id="ninja-stars">
             <div id="star-1" class="ninja-stars">
                 <div class="info">
-                    <h2 class="star-title">OG Shuriken</h2>
+                    <h2 class="ninja-stars">OG Shuriken</h2>
                     <img src="https://vignette3.wikia.nocookie.net/camphalfbloodroleplay/images/4/46/Hayden's_Shuriken.png/revision/latest?cb=20140318025322" class="product-images">
                     <p class="ninja-stars">This is a good starter ninja star. It will get the job done, but there is much to be desired.</p>
                 </div>
@@ -113,13 +115,13 @@
             and we will summon you for the test.<br>
             <strong>Beware, once this form has been submitted there is no stopping the chain of events that awaits!</strong>
             </p>
-        <form id="form"  class="signup" action="https://www.freecodecamp.org/email-submit" method="post">
-            <label class="signup" for="email">Enter your email <strong>if you dare:</strong></label>
-            <br>
-            <input class="signup" id="email" type="email" placeholder="Enter your Email" required="required">
-            <br>
-            <input class="signup" id="submit" type="submit" value="Begin the Quest!">
-        </form>
+            <form id="form"  class="signup" action="https://www.freecodecamp.org/email-submit" method="POST">
+              <label class="signup" for="email">Enter your email <strong>if you dare:</strong></label>
+              <br>
+              <input class="signup" id="email" type="email" placeholder="Enter your Email" name="email" required="required">
+              <br>
+              <input class="signup" id="submit" type="submit" value="Begin the Quest!">
+            </form>
         </div>
 
     </main>

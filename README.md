@@ -13,7 +13,7 @@ You can view the rendered HTML at these links:
 
 [Turing Tribute](https://htmlpreview.github.io/?https://github.com/UnbannableGT/FCC_ReactiveWebProjects/blob/main/FinishedProjects/TuringTribute/turingTribute.html)
 
-[Happiness Survey](https://htmlpreview.github.io/?https://github.com/UnbannableGT/FCC_ReactiveWebProjects/blob/main/FinishedProjects/HappinessSurvey.html)
+[Happiness Survey](https://htmlpreview.github.io/?https://github.com/UnbannableGT/FCC_ReactiveWebProjects/blob/main/FinishedProjects/HappinessSurvey/happinessSurvey.html)
 
 [Super Ninja Warehouse](https://htmlpreview.github.io/?https://github.com/UnbannableGT/FCC_ReactiveWebProjects/blob/main/FinishedProjects/SuperNinjaWarehouse/superNinjaWarehouse.html)
 

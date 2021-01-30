@@ -15,7 +15,7 @@
             </header>
             <a class="nav-link odd" href="#Introduction">Introduction</a>
             <a class="nav-link even" href="#A_Primer_on_Lighting_Programming">A Primer on Lighting Programming</a>
-            <a class="nav-link odd" href="#">This is a page link</a>
+            <a class="nav-link odd" href="#Presets_That_Make_Sense">Presets That Make Sense</a>
             <a class="nav-link even" href="#">This is a page link</a>
             <a class="nav-link odd" href="#">This is a page link</a>
         </nav>
@@ -27,7 +27,7 @@
 
                 <header class="main-section">Introduction</header>
 
-                <p>
+                <p class="main-section">
                     I'm writing this manual to teach some of the meta behind programming MA2 as I've had the opportunity to 
                     play with or watch others play with for the last few years. I've considered doing this in video format, 
                     but there's something special to me about RTFM, and I needed to write a technical documentation page for 
@@ -84,6 +84,27 @@
                    this guide, you'll see what windows are accessed frequently and build it to your liking. I will say however, I'm personally fond of dynamic preset view and layout view interfaces. We'll 
                    talk about these more later. Keep in mind: if you want to store a view to all screens, every time you store it you have to store all. You'll get caught by that one more that you'll like.
                 </p>
+            </section>
+
+
+            <section class="main-section">
+
+                <header class="main-section">Presets that Make Sense</header>
+
+                <p class="main-section">
+                    Presets are the most fundamental data type in MA. They're the bottom level of of the data stack. Any time you're referencing data to send to a light, it should be 
+                    through a preset. Most lights have many parameters like Dimmer, Pan, Tilt, Color, etc. Groups of parameters are called attributes, you should have 6 or so depending on  
+                    what you've got patched. Tap in the top left corner of the screen to make a window. Find the Dynamic window under the presets tab. Pick it. Drag the bottom right corner of the screen 
+                    resize the widow to half of the screen size. I personally like landscape windows, but I know some are fond of the portrait. Find your flow. Tap in the shaded cell with the 
+                    orange ball, but not on the orange ball, and drag to move your window around. Tap in the top left corner of your empty space and create a group window from the pools tab. 
+                    Press the -store- key, and store it in one of empty cells in the bar on the right side of your screen. Most of your views will go here. 
+                </p>
+            </section>
+
+
+            <section class="main-section">
+                
+                <header class="main-section">The Executor Layer</header>
             </section>
 
         </main>

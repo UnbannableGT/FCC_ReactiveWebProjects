@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>J03Y's GrandMA2 Crash Course</title>
         <link rel="stylesheet" href="consoleCrashCourse.css">
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     </head>
 
     <body>
@@ -15,9 +16,10 @@
             </header>
             <a class="nav-link odd" href="#Introduction">Introduction</a>
             <a class="nav-link even" href="#A_Primer_on_Lighting_Programming">A Primer on Lighting Programming</a>
-            <a class="nav-link odd" href="#Presets_That_Make_Sense">Presets That Make Sense</a>
-            <a class="nav-link even" href="#">This is a page link</a>
-            <a class="nav-link odd" href="#">This is a page link</a>
+            <a class="nav-link odd" href="#Your_New_Showfile">Your New Showfile</a>
+            <a class="nav-link even" href="#Presets_That_Make_Sense">Presets That Make Sense</a>
+            <a class="nav-link odd" href="#The_Executor_Layer">The Executor Layer</a>
+            <a class="nav-link even" href="#Some_Talk_on_Macros">Some Talk on Macros</a>
         </nav>
 
         <main id="main-doc" class="main-doc">
@@ -25,25 +27,25 @@
 
             <section id="Introduction" class="main-section">
 
-                <header class="main-section">Introduction</header>
+                <header class="main-header">Introduction</header>
 
-                <p class="main-section">
+                <p class="main">
                     I'm writing this manual to teach some of the meta behind programming MA2 as I've had the opportunity to 
                     play with or watch others play with for the last few years. I've considered doing this in video format, 
                     but there's something special to me about RTFM, and I needed to write a technical documentation page for 
                     my web coding class. I hope you enjoy this manual, I have always been a fan of a well written manual and this is 
                     my first attempt at anything of the sort, it will likely be a journey for the both of us. I'll 
                     be starting with the basics, and hopefully expanding as time allows. If this page was useful, share it at 
-                    your liesure. If not, leave a comment on the <a class="main-section" href="https://github.com/UnbannableGT/FreeCodeCampProjects">github page here.</a>
+                    your liesure. If not, leave a comment on the <a class="main" href="https://github.com/UnbannableGT/FreeCodeCampProjects">github page here.</a>
                 </p>
             </section>
             
 
             <section id="A_Primer_on_Lighting_Programming" class="main-section">
 
-                <header class="main-section">A Primer on Lighting Programming</header>
+                <header class="main-header">A Primer on Lighting Programming</header>
 
-                <p class="main-section">
+                <p class="main">
                     Before I explain how to use the console, there are a few things I want to explain to you. You may think programming 
                     lights for rock shows and raves is about making the lights do things, but you're wrong. Its all about the way how you're 
                     able to reference the mind melting (and your partiularly earth shattering style of a) sym bally look at the perfect time. And 
@@ -62,14 +64,14 @@
 
             <section id="Your_New_Showfile" class="main-section">
 
-                <header class="main-section">Your New Showfile</header>
+                <header class="main">Your New Showfile</header>
 
-                <p class="main-section">
+                <p class="main">
                     First thing you're gonna want to do is make a new showfile, check all settings. Start from scratch. Next go into settings > users & profiles and make yourself a profile, then user based on that profile.
                     Make sure you give yourself admin privelages, and log in. This is important for annoying reasons, but can save you at showtime on a big festival.
                 </p>
 
-                <p class="main-section">
+                <p class="main">
                     Okay, now that we're acting as us, and not the admin we're ready to patch. Open settings > patch & fixture schedule. Here's where all of the data for the lights in your show is stored. 
                     Think of layers like user defined groupings of fixture data. Patch is the main folder, layers are folders inside the main folder, and fixtures have to go in a folder. 
                     More to come as I refine this. I usually group by fixture type, but I know some people like to group by truss or element, and vectorworks import creates a structure.
@@ -79,7 +81,7 @@
                     If you have access to another showfile with built 3D, you can use partial show read, wizard merge all. 
                 </p> 
 
-                <p class="main-section">
+                <p class="main">
                    Now that you've got some fixtures patched, escape out of the settings menu, and you should have a blank screen. I won't go too far into telling you how to lay your show out, through
                    this guide, you'll see what windows are accessed frequently and build it to your liking. I will say however, I'm personally fond of dynamic preset view and layout view interfaces. We'll 
                    talk about these more later. Keep in mind: if you want to store a view to all screens, every time you store it you have to store all. You'll get caught by that one more that you'll like.
@@ -87,26 +89,116 @@
             </section>
 
 
-            <section class="main-section">
+            <section id="Presets_That_Make_Sense" class="main-section">
 
-                <header class="main-section">Presets that Make Sense</header>
+                <header class="main-header">Presets that Make Sense</header>
 
-                <p class="main-section">
+                <p class="main">
                     Presets are the most fundamental data type in MA. They're the bottom level of of the data stack. Any time you're referencing data to send to a light, it should be 
-                    through a preset. Most lights have many parameters like Dimmer, Pan, Tilt, Color, etc. Groups of parameters are called attributes, you should have 6 or so depending on  
+                    through a preset. Most lights have many parameters like Dimmer, Pan, Tilt, Color, etc. Groups of parameters are called attributes, and groups of attibutes are called preset types. You should have 6 or so depending on  
                     what you've got patched. Tap in the top left corner of the screen to make a window. Find the Dynamic window under the presets tab. Pick it. Drag the bottom right corner of the screen 
                     resize the widow to half of the screen size. I personally like landscape windows, but I know some are fond of the portrait. Find your flow. Tap in the shaded cell with the 
                     orange ball, but not on the orange ball, and drag to move your window around. Tap in the top left corner of your empty space and create a group window from the pools tab. 
                     Press the -store- key, and store it in one of empty cells in the bar on the right side of your screen. Most of your views will go here. 
                 </p>
+
+                <p class="main">
+                    Now that you have a view to work out of make some groups for the lights you patched and you'll be ready to start cranking out presets. I like to start by importing 
+                    auto created presets using settings > auto create. I will typically import all presets from all fixture types, and start condensing from there. It'll take a while, but 
+                    you'll eventually find your flow. Presets can be global, universal, or selective. Global presets are a defined parameter value that can be referenced by any fixture. Useful 
+                    for dimmer, and color in some cases. Universal presets are shared across a group of fixtures. Useful for color, gobo, zoom, anything defined parameter shared across a fixture type or group 
+                    of fixtures. Selective presets are specific to a fixture and useful in pretty much all cases. You'll find that you use selective presets the most, as you can dial in the parameters of 
+                    each fixture indiviually. Play around with creating and storing some presets.
+                    <br> 
+                    Have some preset, color, gobo, and zoom/focus presets made before you move on. 3 or 4 of each should do.
+                </p>
+
+                <p class="main"> 
+                    Now, you may be thinking you've programmed some lights, and you can run a show. That's only partially true. Presets are the foundation of every bit of lighting programming. Presets 
+                    are referencable objects that keep you from having to go change every cue that has a red light in it to green. So we have presets, and we need to some way to put it in cue, and a way 
+                    to call that cue. Enter the executor layer. While you were making those presets, you were working in what's known as the programmer layer. It's the most overwritable layer in the data stack, 
+                    unless you tell it not to be. In the programming, you're directly feeding raw data values to the fixtures. In the executor layer, you're referencing data you created in the programmer and stored elsewhere. 
+                </p>
             </section>
 
 
-            <section class="main-section">
+            <section id="The_Executor_Layer" class="main-section">
                 
-                <header class="main-section">The Executor Layer</header>
+                <header class="main-header">The Executor Layer</header>
+
+                <p class="main">
+                    Armed with your handful of presets, we're ready to make some cues. Give your lights a dimmer value, a position, and a color. Awesome, you've made a look. hit the -store- -exec- -1-. You can also 
+                    type this directly in the command line, or simply tap an executor button or cell. You just created a sequence, stored a cue in that sequence, and assigned the sequence to an executor. 
+                    Cues are where the lighting data is stored and contains timing info, sequences are basically containers of cues and can be referenced and fired in a number of ways. Executors are the 
+                    physical (or virtual for onPC) button, or grouping of faders and buttons, and have many settings very worth becoming familiar with. I'll touch on many of the settings, but an intimate knowledge 
+                    of executor settings is incredibly important to understanding how the console works. 
+                    <br>
+                    Repeat this process with some of your other presets. If things get annoying, you can press -clear- 3 times, aka <code class="main">ClearAll</code>, and press -off- 3 times, and hit Everything Off. 
+                </p>
+                    
+                <p class="main">
+                    Notice that when you call a preset, the preset type gets a little red box, and the parameter lights up red. When you store it, the red box goes away, and the parameter turns blue. The red indicates 
+                    That parameter is active in the programmer and ready to be stored. The red box indicates that something of that presettype is active in the programmer. Remember how everything has layers? I'm sure you 
+                    noticed that each preset type can have multiple layers. These layers are called features. Features are groupings of attributes, which is another name for parameters. This is the hierarchy of fixture data: 
+                    preset type > feature > attribute > sub attribute. We'll get into sub attributes when we talk about creating fixture profiles, but for the most part they should be included with most fixture profiles that are 
+                    readily available, and properly implemented. 
+                </p>
+                    
+                <!--Move most of this to the preset section and add something about all and embedded presets, and a piece about default and highlight presets-->
+                <p class="main">
+                    I mentioned pressing -clear- 3 times, earlier. The clear function on MA has 3 levels. The first level of clear is your fixture selection. One of the things it took me longest to pound into my 
+                    skull was the difference between tapping clear once, and hitting the -oops- button. Oops is going to be your backspace and undo button all in one. It's also worth noting, if you haven't figured it out already, 
+                    the -please- button is your enter/return. For a long time, if I messed up typing out a selection, I would hit clear and lose everything I had done. I learned to use oops properly, and eventually how to write 
+                    macros or scripts that do those types of things. Back to the -clear- button. The second level of clear will do the same thing storing that sequence just did. It will clear any active parameters, but keep 
+                    the data in the back of the programmer, still outputting. This is incredibly convenient for preset programming. Select your fixtures, -at- -at- to put them at full, -clear- -clear- to deactivate dimmer. Now you 
+                    can play with color and store only color data to a sequence. Give it a try. 3 -clear-s will clear all data out of the programmer. It's customary to mash the clear button with ferocity, and way more than 3 times.
+                </p>
+                
+                <p class="main">
+                    You can also activate and deactivate individual attributes with the 'deactivate' option in the popup menu. You can toggle a preset type on or off by double tapping, but beware activating a preset type this way will activate 
+                    all attributes of the preset type and can potentially make for some sloppy programming. You can activate or deactivate all preset types by double tapping -please-, and care should be taken when activating all attributes. There's a weird 
+                    double tap turns into single tap with these as well, but makes sense once you've played with it a little. 
+                </p>
+
+                <p class="main">
+                    Just like there are layers to presets, there are layers how executors work. These layers work a little differently in that when you turn an executor on, it puts a card on the playing field. When you turn on another 
+                    executor, you add another card to the playing field. Executors have settings that tell you if the card will be placd on top of, underneath, or beside the 
+                </p>
             </section>
 
+            <section id="Some_Talk_on_Macros" class="main-section">
+
+                <header class="main-header">Some Talk on Macros</header>
+
+                <p class="main">
+                    I need to satisfy some requirements with code blockouts, so here's some macros in a lits because that's a thing too. I'll make it better when I come through and rewrite this for usability.
+                </p>
+
+                <ul class="main">
+
+                    <li class="main">Some macros that make focusing easier.</li>
+                        <ul class="main">
+                            <li class="main">Align Functions</li>
+                                <ul class="main">
+                                    <li class="main">These are helpful for quickly creating looks with groups of lights. My festival season revolves around the align function.</li>
+                                    <li class="main"><code class="main">Align "&lt &gt"</code></li>
+                                    <li class="main"><code class="main">Align "&lt"</code></li>
+                                    <li class="main"><code class="main">Align "&gt"</code></li>
+                                    <li class="main"><code class="main">Align "Off"</code></li>
+                                </ul> 
+                            <li class="main">Stomp</li>
+                                <ul class="main">
+                                    <li class="main">I use these frequently when programming to stop an effect. Keep in mind, this happens on the programmer level, so if you're in blind you won't se anything change.</li>
+                                    <li class="main"><code class="main">Stomp PresetType "Dimmer"</code></li>
+                                    <li class="main"><code class="main">Stomp Fixture @</code></li>
+                                    <li class="main"><code class="main">Stomp Group @</code></li>
+                                    <li class="main"><code class="main">Stomp Effect @</code></li>
+                                </ul>
+                            </ul>
+                        </ul>
+                
+                </ul>
+            </section>
         </main>
     </body>
 </html>

@@ -15,6 +15,20 @@ nav.navbar {
     height: 98.5%; 
     position: fixed;
 }
+@media screen and (max-width: 768px) {
+    body {
+        flex-direction: column;
+        background-color: pink;
+        /*I've spent too much time on this, and need to move on
+        otherwise, I'd make the screen resizing work better*/
+    }
+    nav.navbar {
+        width: 80%;
+        height: 300px;
+        overflow: scroll;
+        position: relative;
+    }
+}
 header.navbar {
     width: 300px;
     height: 100px;
@@ -36,19 +50,23 @@ a.nav-link.even {
 }
 .main-section {
     font-family: tahoma, arial, helvetica;
+    color: #e8a901;
+    text-shadow: 2px 2px 3px rgb(36, 30, 20);
 }
 section.main-section {
     margin: 4em;
     margin-left: 25em;
 }
-header.main-section {
+.main-header {
     font-style: bold;
     font-size: 2.25em;
-    color: #e8a901;
 }
-p.main-section {
+p.main, li.main{
     font-size: 1.35em;
-    color: #e8a901;
     line-height: 1.25em;
-    text-shadow: 2px 2px 3px rgb(36, 30, 20);
+    list-style-type: disc;
+}
+code.main {
+    background-color: #1a1a1a;
+    border-radius: .25em;
 }

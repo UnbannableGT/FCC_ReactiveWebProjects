@@ -1,0 +1,37 @@
+/*
+Color Palette:
+Black: #232323
+Dark-Gray: #656565
+Light-Gray: #989898
+Light-Purple: #7951A8
+Dark-Purple: #69369E
+*/
+body {
+    margin: 0;
+    font-family: 'Orbitron', sans-serif;
+}
+#navbar {
+    width: 100vw;
+    height: 6vh;
+    background-color: #00ff33;
+    position: sticky;
+    top: 0;
+}
+section.welcome-section {
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+h1.welcome-section {
+    margin: 0;
+    margin-top: 33%;    
+    font-size: 130px;
+    color: #00ff33;
+}
+p.welcome-section {
+    margin-top: 1%;
+    font-size: 35px;
+    color: #00ff33;
+}

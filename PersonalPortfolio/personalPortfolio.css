@@ -6,6 +6,9 @@ Light-Gray: #989898
 Light-Purple: #7951A8
 Dark-Purple: #69369E
 */
+* {
+    box-sizing: border-box;
+}
 body {
     margin: 0;
     font-family: 'Orbitron', sans-serif;
@@ -34,4 +37,30 @@ p.welcome-section {
     margin-top: 1%;
     font-size: 35px;
     color: #00ff33;
+}
+#project-1 {grid-area: project-1;}
+#project-2 {grid-area: project-2;}
+#project-3 {grid-area: project-3;}
+section.projects {
+    display: grid;
+    grid-template-areas: 
+    '. h1 h1 h1 .'
+    '. project-1 project-2 project-3';
+    background-color: gray;
+}
+h1.projects {
+    grid-area: h1;
+    height: 10vh;
+    font-size: 40px;
+}
+div.projects {
+    width: 25vw;
+    margin-top: 10vh;
+    align-content: center;
+}
+.projects-wrapper {
+
+}
+img.projects {
+    width: 275px;
 }

@@ -15,10 +15,19 @@ body {
 }
 #navbar {
     width: 100vw;
-    height: 6vh;
+    height: 85px;
     background-color: #00ff33;
-    position: sticky;
-    top: 0;
+    position: fixed;
+    display: flex;
+    flex-direction: row-reverse;
+}
+a.navbar {
+    color: black;
+    text-decoration: none;
+    font-size: 1.5em;
+    text-align: center;
+    margin-right: 2em;
+    margin-top: 10px;
 }
 section.welcome-section {
     height: 100vh;
@@ -29,7 +38,7 @@ section.welcome-section {
 }
 h1.welcome-section {
     margin: 0;
-    margin-top: 33%;    
+    margin-top: 40%;    
     font-size: 130px;
     color: #00ff33;
 }
@@ -38,29 +47,64 @@ p.welcome-section {
     font-size: 35px;
     color: #00ff33;
 }
-#project-1 {grid-area: project-1;}
-#project-2 {grid-area: project-2;}
-#project-3 {grid-area: project-3;}
 section.projects {
-    display: grid;
-    grid-template-areas: 
-    '. h1 h1 h1 .'
-    '. project-1 project-2 project-3';
-    background-color: gray;
+    background: #656565;
 }
 h1.projects {
-    grid-area: h1;
-    height: 10vh;
-    font-size: 40px;
-}
-div.projects {
-    width: 25vw;
-    margin-top: 10vh;
-    align-content: center;
+    padding-top: 40vh;
+    padding-bottom: 8vh;
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
 }
 .projects-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1.5fr 1.5fr 1fr;
+    grid-template-areas: 
+    ". project-1 project-2 project-3 . ";
+    grid-column-gap: 5vw;
+}
 
+#project-1 {grid-area: project-1}
+#project-2 {grid-area: project-2}
+#project-3 {grid-area: project-3}
+
+h1.project-title {
+    text-align: center;
+}
+div.projects {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-bottom: 30vh;
+}
+a.projects {
+    margin: auto;
+    margin-right: auto;
+    margin-left: auto;
 }
 img.projects {
     width: 275px;
+}
+section.github {
+    background-color: #00ff33;
+    display: flex;
+}
+p.github {
+    margin: 0;
+    font-size: 20px;
+}
+img.github {
+    width: 50px;
+    margin-left: 2em;
+}
+div.github {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    padding: .5em;
+}
+@media (min-width: 768px) {
+    
 }

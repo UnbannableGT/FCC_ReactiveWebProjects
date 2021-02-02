@@ -11,13 +11,13 @@ View the project folders (and the code that supports these pages) by either clic
 
 You can view the rendered HTML at these links:
 
-[Turing Tribute](https://htmlpreview.github.io/?https://github.com/UnbannableGT/FreeCodeCampProjects/blob/main/FinishedProjects/TuringTribute/turingTribute.html)
+[Turing Tribute](https://htmlpreview.github.io/?https://github.com/UnbannableGT/FreeCodeCampProjects/blob/main/ReactiveWebDesign/TuringTribute/turingTribute.html)
 
-[Happiness Survey](https://htmlpreview.github.io/?https://github.com/UnbannableGT/FreeCodeCampProjects/blob/main/FinishedProjects/HappinessSurvey/happinessSurvey.html)
+[Happiness Survey](https://htmlpreview.github.io/?https://github.com/UnbannableGT/FreeCodeCampProjects/blob/main/ReactiveWebDesign/happinessSurvey.html)
 
-[Super Ninja Warehouse](https://htmlpreview.github.io/?https://github.com/UnbannableGT/FreeCodeCampProjects/blob/main/FinishedProjects/SuperNinjaWarehouse/superNinjaWarehouse.html)
+[Super Ninja Warehouse](https://htmlpreview.github.io/?https://github.com/UnbannableGT/FreeCodeCampProjects/blob/main/ReactiveWebDesign/SuperNinjaWarehouse/superNinjaWarehouse.html)
 
-[Console Crash Course](https://htmlpreview.github.io/?https://github.com/UnbannableGT/FreeCodeCampProjects/blob/main/ConsoleCrashCourse/consoleCrashCourse.html)
+[Console Crash Course](https://htmlpreview.github.io/?https://github.com/UnbannableGT/FreeCodeCampProjects/tree/main/ReactiveWebDesign/ConsoleCrashCourse)
 
 ---
 

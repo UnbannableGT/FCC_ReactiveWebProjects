@@ -20,6 +20,7 @@ You can view the rendered HTML at these links:
 [Console Crash Course](https://htmlpreview.github.io/?https://github.com/UnbannableGT/FreeCodeCampProjects/blob/main/ReactiveWebDesign/ConsoleCrashCourse/consoleCrashCourse.html)
 
 [Personal Profile](https://htmlpreview.github.io/?https://github.com/UnbannableGT/FreeCodeCampProjects/blob/main/ReactiveWebDesign/PersonalProfile/personalProfile.html)
+
 ---
 
 Use the link in `README.md` inside the project folders to view the project in your browser.

@@ -17,8 +17,9 @@ You can view the rendered HTML at these links:
 
 [Super Ninja Warehouse](https://htmlpreview.github.io/?https://github.com/UnbannableGT/FreeCodeCampProjects/blob/main/ReactiveWebDesign/SuperNinjaWarehouse/superNinjaWarehouse.html)
 
-[Console Crash Course](https://htmlpreview.github.io/?https://github.com/UnbannableGT/FreeCodeCampProjects/tree/main/ReactiveWebDesign/ConsoleCrashCourse/consoleCrashCourse.html)
+[Console Crash Course](https://htmlpreview.github.io/?https://github.com/UnbannableGT/FreeCodeCampProjects/blob/main/ReactiveWebDesign/ConsoleCrashCourse/consoleCrashCourse.html)
 
+[Personal Profile](https://htmlpreview.github.io/?https://github.com/UnbannableGT/FreeCodeCampProjects/blob/main/ReactiveWebDesign/PersonalProfile/personalProfile.html)
 ---
 
 Use the link in `README.md` inside the project folders to view the project in your browser.

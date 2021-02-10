@@ -12,6 +12,7 @@
     "web-vitals": "^1.1.0"
   },
   "scripts": {
+    "stop": "taskkill -F -IM node.exe",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

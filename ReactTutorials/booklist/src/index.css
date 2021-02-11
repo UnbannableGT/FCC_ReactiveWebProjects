@@ -29,16 +29,17 @@ body{
     background: #fff;
 }
 
-h1.book{
+h1{
+    font-size: 1.35rem;
     margin: .25rem;
     padding: 0;
 }
-h4.book{
+h4{
     color: #617d98;
-    font-size: .75rem;
+    font-size: 1.2rem;
     margin-top: .25rem;
     padding: 0;
 }
-p.book{
+p{
     margin-top: .5em;
 }

@@ -3,46 +3,56 @@ import ReactDOM from 'react-dom';
 
 import './index.css';
 
-const firstBook = {
-  img: 'https://images-na.ssl-images-amazon.com/images/I/918sHoEOD8L._AC_UL200_SR200,200_.jpg',
-  title: 'Llama Llama I love You',
-  author: 'Anna Dewdney'
-}
+const books = [
+  {
+    id: 1,
+    img: 'https://images-na.ssl-images-amazon.com/images/I/918sHoEOD8L._AC_UL200_SR200,200_.jpg',
+    title: 'Llama Llama I love You',
+    author: 'Anna Dewdney'
+  },
+  {
+    id: 2,
+    img: 'https://images-na.ssl-images-amazon.com/images/I/41bChkOa4zL._AC_UL200_SR200,200_.jpg',
+    title: 'Think Again: The Power of Knowing What You Don\'t Know',
+    author: 'Adam Grant'
+  },
+  {
+    id: 3,
+    img: 'https://images-na.ssl-images-amazon.com/images/I/81ux0cp6p0L._AC_UL200_SR200,200_.jpg',
+    title: 'Walk in My Combat Boots',
+    author: 'James Patterson and Matt Eversmann'
+  },
+];
 
-const secondBook = {
-  img: 'https://images-na.ssl-images-amazon.com/images/I/41bChkOa4zL._AC_UL200_SR200,200_.jpg',
-  title: 'Think Again: The Power of Knowing What You Don\'t Know',
-  author: 'Adam Grant'
-}
 
 function BookList() {
   return (
-    <section className="booklist">
-      <Book 
-        img={firstBook.img}
-        title={firstBook.title}
-        author={firstBook.author} 
-      />
-      <Book 
-        img={secondBook.img}
-        title={secondBook.title}
-        author={secondBook.author} 
-      >
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae veniam labore distinctio officia reiciendis, soluta voluptates sapiente aperiam molestias minima ex, tenetur amet commodi beatae? Velit asperiores ex nam fugiat!</p>
-      </Book >
-    </section>
-  )
+    <section className="booklist">{books.map((book) => {
+      return(
+        <Book key={book.id} {...book}></Book>
+      )
+    })}</section>
+  ); 
 }
 
-const Book = (props) => {
-  const {img, title, author} = props;
-  console.log(props);
+const Book = ({ img, title, author }) => {
+  const complexExample = (author) => {
+    alert(author);
+  }
+  const clickHandler = (e) => {
+    console.log(e);
+    console.log(e.target);
+    alert('hello world');
+  }
   return (
-    <article className="book">
-    <img className="book" src={img} />
-    <h1 className="book">{title}</h1>
-    <h4 className="book">{author}</h4>
-    {props.children}
+    <article className="book" onMouseOver={() => {
+      console.log(title);
+    }}>
+    <img src={img} />
+    <h1>{title}</h1>
+    <h4>{author}</h4>
+    <button type="button" onClick={clickHandler}>Test Button</button>
+    <button type="button" onClick={() => complexExample(author)}>Complex Button</button>
   </article>
   )
 }
